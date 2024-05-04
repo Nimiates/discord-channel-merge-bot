@@ -32,32 +32,29 @@ This bot helps you move messages from one Discord channel to another. It provide
    
 2. **Change to the project directory**:
 
-   ```bash
 `cd discord-channel-merge-bot`
 
 3. **Create a virtual environment**:
 
-   ```bash
 `python -m venv venv`
 
 5. **Activate the virtual environment**:
 *Windows*:
-   ```bash
+
 `venv\Scripts\activate`
 
 *MacOS/Linux*:
-   ```bash
+
 `source venv/bin/activate`
 
 5. **Install the dependencies**:
-   ```bash
+
 `pip install -r requirements.txt`
 
 ### Configuration
 
 1. **Create a `.env` file** in the project directory to store your environment variables:
 
-   ```bash
 `DISCORD_TOKEN=your_discord_bot_token_here`
 `BOT_OWNER_ID=your_discord_user_id_here`
 `DISCORD_PREFIX=!`

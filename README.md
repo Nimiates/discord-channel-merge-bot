@@ -39,6 +39,7 @@ This bot helps you move messages from one Discord channel to another. It provide
 `python -m venv venv`
 
 5. **Activate the virtual environment**:
+
 *Windows*:
 
 `venv\Scripts\activate`

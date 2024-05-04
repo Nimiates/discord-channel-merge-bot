@@ -2,10 +2,12 @@
 
 This bot helps you move messages from one Discord channel to another. It provides admin commands to move all messages, specific messages within a timeframe, or messages from specific users.
 
-You can also join our NIM community on Discord or visit our homepage:
+You can also join our NIM community on Discord, Reddit, and Facebook, or visit our homepage:
 
 [![Join our Discord](https://img.shields.io/badge/Discord-Join-blue)](https://discord.com/invite/SVYMhKpCAb)
 [![Visit our Homepage](https://img.shields.io/badge/Homepage-Visit-orange)](https://nimiates.org)
+[![Visit our Reddit](https://img.shields.io/badge/Reddit-Visit-red)](https://www.reddit.com/r/nimiates/)
+[![Visit our Facebook](https://img.shields.io/badge/Facebook-Visit-blue)](https://www.facebook.com/groups/nimiates/)
 
 ## Features
 

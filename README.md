@@ -57,7 +57,9 @@ This bot helps you move messages from one Discord channel to another. It provide
 1. **Create a `.env` file** in the project directory to store your environment variables:
 
 `DISCORD_TOKEN=your_discord_bot_token_here`
+
 `BOT_OWNER_ID=your_discord_user_id_here`
+
 `DISCORD_PREFIX=!`
 
 2. **Replace the placeholder values with your actual values**.

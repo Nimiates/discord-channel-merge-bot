@@ -73,7 +73,7 @@ This bot helps you move messages from one Discord channel to another. It provide
 2. **Stop the bot**: To stop the bot, press Ctrl+C in the terminal where it is running.
 
 ### More Information
-To learn more about running and managing Discord bots, read the official Discord.py documentation.
+To learn more about running and managing Discord bots, read the official [Discord.py documentation](https://discordpy.readthedocs.io/en/stable/#getting-started).
 
 ## License
 This project is licensed under the MIT License.

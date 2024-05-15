@@ -16,6 +16,14 @@ You can also join our NIM community on Discord, Reddit, and Facebook, or visit o
 - Move messages from specific users.
 - User-friendly command system.
 
+## Commands
+
+The bot offers the following commands:
+
+- `!move -all -Channel-x -Channel-y`: Move all messages from Channel-x to Channel-y.
+- `!move -last <number_of_days> -Channel-x -Channel-y`: Move messages from the last specified number of days from Channel-x to Channel-y.
+- `!move -from_user <username> -Channel-x -Channel-y`: Move messages from a specific user in Channel-x to Channel-y.
+
 ## Requirements
 
 - Python 3.8 or higher

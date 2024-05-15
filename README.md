@@ -43,7 +43,7 @@ The bot offers the following commands:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/discord-channel-merge-bot.git
+   git clone https://github.com/Nimiates/discord-channel-merge-bot.git
    
 2. **Change to the project directory**:
 

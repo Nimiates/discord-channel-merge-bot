@@ -20,7 +20,9 @@ You can also join our NIM community on Discord, Reddit, and Facebook, or visit o
 The bot provides commands to move messages between channels. Here's how to use them:
 
 `!move #Channel-x #Channel-y`: Moves all messages from Channel-x to Channel-y. This is the default action if no additional parameters are provided.
+
 `!move #Channel-x #Channel-y -last "7 days"`: Moves messages from Channel-x to Channel-y that were sent in the last specified time period (e.g., "7 days" or "1 hour").
+
 `!move #Channel-x #Channel-y -from_user @username`: Moves all messages sent by a specific user from Channel-x to Channel-y.
 
 ## Parameters

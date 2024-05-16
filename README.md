@@ -17,12 +17,29 @@ You can also join our NIM community on Discord, Reddit, and Facebook, or visit o
 - User-friendly command system.
 
 ## Commands
+The bot provides commands to move messages between channels. Here's how to use them:
 
-The bot offers the following commands:
+`!move #Channel-x #Channel-y`: Moves all messages from Channel-x to Channel-y. This is the default action if no additional parameters are provided.
+`!move #Channel-x #Channel-y -last "7 days"`: Moves messages from Channel-x to Channel-y that were sent in the last specified time period (e.g., "7 days" or "1 hour").
+`!move #Channel-x #Channel-y -from_user @username`: Moves all messages sent by a specific user from Channel-x to Channel-y.
 
-- `!move -all -Channel-x -Channel-y`: Move all messages from Channel-x to Channel-y.
-- `!move -last <number_of_days> -Channel-x -Channel-y`: Move messages from the last specified number of days from Channel-x to Channel-y.
-- `!move -from_user <username> -Channel-x -Channel-y`: Move messages from a specific user in Channel-x to Channel-y.
+## Parameters
+`#Channel-x`: Mention of the source channel where messages will be moved from.
+`#Channel-y`: Mention of the destination channel where messages will be moved to.
+`-last "<time_period>"`: (Optional) The time period for which messages will be moved, specified in quotes. Replace <time_period> with a value like "7 days" or "1 hour".
+`-from_user @username`: (Optional) The mention of the user whose messages will be moved. Replace @username with the actual user mention.
+
+## Examples
+To move all messages from one channel to another:
+`!move #source-channel #destination-channel`
+
+To move messages from the last 7 days:
+`!move #source-channel #destination-channel -last "7 days"`
+
+To move messages from a specific user:
+`!move #source-channel #destination-channel -from_user @User`
+
+Please replace #source-channel and #destination-channel with the actual channel mentions, and @User with the mention of the user whose messages you want to move.
 
 ## Requirements
 

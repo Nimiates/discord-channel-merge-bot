@@ -106,6 +106,9 @@ Please replace #source-channel and #destination-channel with the actual channel 
 
 2. **Stop the bot**: To stop the bot, press Ctrl+C in the terminal where it is running.
 
+## Historical Data: 
+Discord only allows bots to fetch messages up to 14 days old.
+
 ### More Information
 To learn more about running and managing Discord bots, read the official [Discord.py documentation](https://discordpy.readthedocs.io/en/stable/#getting-started).
 
